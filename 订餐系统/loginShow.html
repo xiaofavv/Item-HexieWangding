@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>loginShow</title>
+	<link rel="stylesheet" type="text/css" href="css/loginShow.css" />
+
+</head>
+<body>
+	
+	<div class="login_bg" id="left" ></div>
+	<div class="login_bg" id="right"></div>
+	<div class="login_logo"></div>
+	<div class="login_content">
+		<div class="hexie"></div>
+		<p>登录</p>
+		<span>继续前往&nbsp;&nbsp;河蟹网订</span>
+		<form id="loginForm">
+			<div>
+				<input type="text" name="username" id="username" placeholder="用户名" /><br /> <!-- 用户名 -->
+			</div>
+
+			<div class="pwdHandle">
+				<input type="password" name="pwd" id="pwd" placeholder="密码" /><br /> <!-- 密码 -->
+			</div>
+
+			<div>
+				<input type="button" name="btn" id="btn" value="登录" />
+			</div>
+
+			<input type="hidden" name="valcode" value="ddddd" id="valcode" />
+		</form>
+		<div class="links">
+			<a href="">忘记密码？</a>
+			<a href="" class="a1">注册帐号</a>
+		</div>
+		<div class="extra_links">
+			继续提交即代表您同意 HeXie 云服务的
+			<a href="">服务条款</a>
+			和
+			<a  href="">隐私声明</a>。
+		</div>
+	</div>
+	<script type="text/javascript" src="js/yclib.js"></script>
+	<script type="text/javascript" src="js/showLogin.js"></script>
+</body>
+</html>

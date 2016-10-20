@@ -1,0 +1,345 @@
+body{
+	width:100%;
+	height:1550px;
+}
+/*登录那一栏*/
+.denglu{ 
+	width:100%;
+	height:30px;
+	background-color:#D03D12;
+	border-bottom:orange;
+}
+.denglu span{
+	margin-right: 2em;
+	line-height:30px;
+	font-size:18px;
+	color:#fff;
+	float: right;
+}
+.denglu img{
+	float: right;
+	margin-right:2em;
+}
+.denglu span a{
+	color:#fff;
+}
+/*主题部分*/
+.logo{
+	width:100%;
+	height:4.5%;
+	background-color:#000;
+}
+.logo div{
+	display: inline-block;
+	margin-left: 10px;
+}
+ /*河蟹网订logo */
+.logo .logo_1{
+	width: 20%;
+	height: 100%;
+	background: url(../images/logo.png) no-repeat ;
+	background-size: contain;
+}	
+/*好好吃饭logo*/
+.logo .logo_2{
+	width: 70%;
+	height: 100%;
+	background: url(../images/header1.jpg) no-repeat  ;
+	background-size: contain;
+	
+}
+/*菜单栏*/
+.menu{
+	width:100%;
+	height:35px;
+	background: url(../images/menu.png) repeat-x;
+}
+.menu .list li{
+	width:20%;
+	height:40px;
+	line-height: 40px;
+	text-align: center; 
+	font-size:1em;
+	font-family:"仿宋";
+	font-weight:bold;
+	float: left;
+	background:url(../images/li.png) no-repeat right center;
+}
+.menu .list .last_li{
+	background:none;
+}
+.menu .list li a{
+	color:#fff;
+	font-size: 18px;
+}
+.menu .list li a:hover{
+	font-size: 25px;
+	font-weight: bold;
+}
+.welcome{
+	width:100%;
+	height:29%;
+	background:url(../images/lb.gif) no-repeat;
+	background-size:cover;
+}
+/*  内容  */
+.content{
+	width:100%;
+	height:80%;
+	margin-top: 30px;
+}
+/*  左侧内容  */
+.content-left{
+	height:100%;
+	width:20%;
+	float:left;
+	margin-top:30px;
+}
+/*  左侧内容公告  */
+.content-left .notice{
+	width: 100%;
+	height: 30%;
+	background: url(../images/gonggao.png);	
+	background-size: cover;
+}
+/*公告区域*/
+.content-left .notice .gonggao{
+	width: 100%;
+	height: 10%;
+	border-top: 3px dashed #d03d12;
+}
+.notice .gonggao marquee{
+	float: right;
+	font-size: 18px;
+	font-weight: bold;	
+}
+.notice .gonggao img{/*喇叭图*/
+	position: relative;
+	right:0;
+}
+.notice .gonggao marquee img{  /*大笑图*/
+	position: relative;
+	top:3px;
+}
+/*今日特价*/
+.content-left .notice .tejia{
+	width: 100%;
+	height: 50%;
+	border-bottom: 1px dashed #d03d12; 
+}
+.notice .tejia .youhui{
+	font-size: 20px;
+	font-family: "幼圆";
+	color: #d03d12;
+	font-weight: bold;
+	width: 10%;
+	padding: 40px 20px;
+}
+.notice .tejia ul li{
+	font-family: "幼圆";
+	font-weight: bold;
+	font-size: 16px;
+	width: 10%;
+	float: left;
+	padding: 10px;
+}
+.notice .tejia ul li p{
+	padding: 5px;
+	color: red;
+}
+.notice .tejia ul li .num{
+	background: url(../images/heart.gif) no-repeat;
+	background-size: contain;
+	color: #fff;
+	position: relative;
+	left:-7px;
+}
+
+/*新品尝鲜*/
+.content-left .notice .xinpin{
+	width: 100%;
+	height: 40%;
+}
+.notice .xinpin ul{
+	width: 100%;
+}
+.notice .xinpin ul li{
+	text-align: center;
+}
+.notice .xinpin .changxian{
+	font-size: 20px;
+	font-family: "幼圆";
+	color: #d03d12;
+	font-weight: bold;
+}
+.notice .xinpin ul li{
+	font-family: "幼圆";
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 5px ;
+}
+.notice .xinpin ul li img{
+	padding: 0px 10px;
+}
+.notice .xinpin .ps{
+	color: #666;
+	font-size: 13px;
+}
+
+/*  左侧内容历史记录  */
+.content-left .history{
+	margin-top: 20px;
+	width: 100%;
+	height: 33%;
+	border:1px solid red;
+	background: url(../images/history.png) no-repeat;
+}
+#history{
+	border: 1px solid black;
+    height: 86%;
+    margin-top: 57px;
+    width: 100%;
+}
+/*   联系我们   */
+.content-left .contact{
+	margin-top: 20px;
+	width: 100%;
+	height: 32%;
+	background: url(../images/contact.png) no-repeat;
+	
+}
+.contact ._ul{
+  	padding-top: 50px;
+  	width: 100%;
+  	height: 80%;
+}
+.contact ul li{
+	width: 100%;
+	margin-top: 25px;
+}
+.contact ul li .span_1{
+	position: relative;
+	top:-10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.contact ul li .span_1 a{
+	display:inline-block;
+	width: 80%;
+	height: 30px;	
+	line-height: 30px;
+	color: #D03D12;
+	border-radius: 24px;
+	behavior:url(PIE.htc);
+}
+.contact ul li .span_1 a:hover{
+	color: #fff;
+	background: #D03D12;
+}
+/*内容右侧*/
+.content-right{
+	height:92%;
+	width:80%;
+	float:right;
+}
+.footer{
+	width:100%;
+	height:30px;	
+	background-color:#D03D12;
+	line-height:30px;
+	text-align: center; 
+	color:#fff;
+	font-size:.8em;
+	font-family:"仿宋";
+	font-weight:bold;
+}
+.footer span{
+	color: #fff;
+	position: absolute;
+	left:50%;
+}
+#seeGoods{
+    position:fixed;
+    right:0;
+    bottom:0;
+    border:1px solid #ccc;
+	background-color:orange;
+	color:#FFF;
+    width:100px;
+    height:40px;
+	line-height:40px;
+	text-align:center;
+	border-radius:20px 0 0 20px;
+}
+.content-right table{
+	width:100%;
+	height:100%;
+	font-family:"仿宋";
+}
+.content-right table tr{
+	width:100%;
+	height:20%;
+	margin-bottom:20px;
+	
+}
+.content-right td{
+	width:20%;
+	height:100%;
+	border-radius: 30px;
+	padding:10px;
+}
+.content-right table img{
+	width:80%;
+	height:80%;
+	margin:0 20px;
+	border-radius: 30px;
+}
+.content-right table img:hover{
+	width:82%;
+	height:82%;
+}
+
+.foodname{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	color:#666;
+}
+.normprice{
+	display:inline-block;
+	text-indent:1em;
+	font-size:14px;
+	text-decoration:line-through;
+}
+.realprice{
+	display:inline-block;
+	text-indent:1em;
+	color:red;
+	font-size:20px;
+	font-weight:bold;
+}
+.content-right table img:hover{
+	opacity:0.7;
+}
+.history ul{
+	width:100%;
+	height:100%;
+	overflow:scroll;
+}
+
+.imgtitle{
+	display:block;
+	color:black;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border-bottom:1px solid #ccc;
+}
+.conRight div{
+	width:50%;
+	height:50%;
+	margin:auto;
+}
+
+/*菜的做法*/
